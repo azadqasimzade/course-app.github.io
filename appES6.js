@@ -14,7 +14,7 @@ class UI {
     addCoursToList(course) {
         const list = document.getElementById('course-list');
         let html = `
-                <td><img src="/img/${course.image}" style="width:200px; heigth="150px";"></td>
+                <td><img src="${course.image}" style="width:200px; heigth="150px";"></td>
                 <td>${course.title}</td>
                 <td>${course.instructor}</td>
                 <td><a href="#" data-id="${course.courseID}" class="btn btn-danger btn-sm delete">Delete</a></td>
